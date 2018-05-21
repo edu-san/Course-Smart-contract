@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Dapp connected to smart-contract">
+    <meta name="author" content="Eduardo Santos">
+    <title>Dapp Ethereum Solidity</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+  </head>
+
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#dapp">Dapp</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Eduardo
+            <span class="text-primary">Santos</span>
+          </h1>
+          <p class="mb-5">Organized, methodical and highly motivated IT professional with a background in programming, project management, business and systems analysis.</br>
+          I'm a problem solver at heart who thrives on challenges no matter the domain. 
+            I hold over 20 years of hands-on experience in designing, building and integrating computer systems.<br> 
+            I'm a passionate, self-driven and open-minded developer with a single goal in mind: Delivering value.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/eduardo~santos/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/edu-san">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div>
+          <h2 class="mb-5">Skills</h2>
+        </div>
+        
+        <div class="container">
+          <div class="row ">
+              <div class="col-md-4">
+                  <h4>Programming Languages</h4>
+                <ul class="fa-ul mb-0">
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Javascript</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Solidity</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      C#</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      VB.net</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      C++</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Swift</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Objective-c</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        SQL</li>
+                  </ul>
+              </div>
+              <div class="col-md-4"> 
+                  <h4>Frameworks/Tools</h4>             
+                  <ul class="fa-ul mb-0">
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Truffle</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Node.js</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      NPM</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Web3</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      JQuery</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      TestRPC</li>                      
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Remix</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Bootstrap</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      ASP.net Web forms &amp; MVC</li>
+                  </ul>
+              </div>
+              <div class="col-md-4"> 
+                  <h4>IDEs</h4>               
+                  <ul class="fa-ul mb-0">
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Visual Studio</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      VS Code</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      xCode</li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Codeblocks</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i>
+                        Android Studio</li>
+                    </ul>
+              </div>
+
+            </div>
+          </div>           
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="dapp">
+        <div class="my-auto">
+            <h2 class="mb-0">Course
+                <span class="text-primary">Registration</span>
+              </h2>
+              <h5>Dapp connected to <span class="text-primary">smart-contract: '0x2af9de43ccc112f0c9a3ae7b5ff21d78dfaad478'</span></h5>
+              <h5>Network <span class="text-primary">Ethereum Ropsten</span> </h5>
+              <h5>Source <a href="https://github.com/edu-san/Conference-Dapp">code</a></h5>
+        </div>     
+        <div class="row" id="loadingview">
+          <label class="d-block p-2 bg-warning text-white" id="loading">interacting with smart-contract.....</label>
+          <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+        </div>             
+          <div class="container margin-top-20">
+            <div class="row ">
+              <div class="col-md-6">
+                <h4>Course &nbsp; <button type="button" class="btn btn-info btn-ms" id="btnCourseInfo">View Info</button></h4>
+                <hr>
+                <h6>Title</h6>
+                <h6><label id="title" class="text-primary" ></label></h6>
+                <h6>Description</h6>
+                <h6><label id="description" class="text-primary"></label></h6>
+                <h6>Instructor</h6>
+                <h6><label id="instructor" class="text-primary" ></label></h6>
+                <h6>Rating</h6>
+                <h6><label id="rating" class="text-primary" ></label></h6>
+                <hr>
+                <h4>Update Course</h4>
+                <div class="content">
+                  <div class="row padd-5">
+                      <div class="col-md-3"><h6>Title</h6></div>
+                      <div class="col-md-3>"><input id="etitle" type="text"></div>
+                  </div>
+                  <div class="row padd-5">
+                      <div class="col-md-3"><h6>Description</h6></div>
+                      <div class="col-md-3>"><input id="edescription" type="text"></div>
+                  </div>
+                  <div class="row padd-5">
+                      <div class="col-md-3"><h6>Instructor</h6></div>
+                      <div class="col-md-3>"><input id="einstructor" type="text"></div>
+                  </div>
+                  <div class="row padd-5">
+                      <div class="col-md-3"><h6>Rating (1-5)</h6></div>
+                      <div class="col-md-3>"><input id="erating" type="text"></div>
+                  </div>
+                  <div class="row padd-5">
+                      <div class="col-md-6">
+                        <input type="button" id="btnUpdateCourse" class="btn btn-sm btn-success" value="Update Course"><span class="textsmall">&nbsp;Contract owner only</span> 
+                      </div>
+                  </div>
+                  <div class="row padd-5">
+                      <div class="col-md-3">
+                        <input type="button" id="btnRate" class="btn btn-sm btn-success" value="Update Rating">
+                      </div>
+                  </div>
+                  </div>
+                </div> 
+              
+              
+              <div class="col-md-6 ">
+                <h4>Attendees&nbsp; <button type="button" class="btn btn-info btn-ms" id="btnLoadAttendees">Load List</button></h4>
+                <hr>
+                <h6><ul id="attendees"></ul></h6>
+                <hr>
+                <h4>Registration</h4>
+                <div class="content">
+                  <div class="row padd-5">
+                      <div class="col-md-3"><h6>Full name</h6></div>
+                      <div class="col-md-3>"><input id="efullname" type="text"></div>
+                    </div>
+                    <div class="row padd-5">
+                        <div class="col-md-3"><h6>Country</h6></div>
+                        <div class="col-md-3>"><input id="ecountry" type="text"></div>
+                    </div>
+                    <div class="row padd-5">
+                          <div class="col-md-6"><input type="button" id="btnRegister" class="btn btn-sm btn-success" value="Register Now"></div>
+                    </div>             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+           
+        </div>
+      </section>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>    
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>    
+    <script src="js/resume.min.js"></script>
+    
+    <script>
+        //setup web3 provider
+        if (typeof web3 !== 'undefined') {
+             web3 = new Web3(web3.currentProvider);
+         } else {             
+             web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+         } 
+         web3.eth.defaultAccount = web3.eth.accounts[0]; 
+         //setup the contract
+         var courseContract = web3.eth.contract([
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_address",
+				"type": "address"
+			},
+			{
+				"name": "_country",
+				"type": "string"
+			},
+			{
+				"name": "_name",
+				"type": "string"
+			}
+		],
+		"name": "addAttendee",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "country",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"name": "AttendeeInfo",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "rating",
+				"type": "uint256"
+			}
+		],
+		"name": "CourseRated",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "title",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "instructor",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "rating",
+				"type": "uint256"
+			}
+		],
+		"name": "CourseInfo",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_rating",
+				"type": "uint256"
+			}
+		],
+		"name": "RateCourse",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_title",
+				"type": "string"
+			},
+			{
+				"name": "_description",
+				"type": "string"
+			},
+			{
+				"name": "_instructor",
+				"type": "string"
+			},
+			{
+				"name": "_rating",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateCourse",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "Attendees",
+		"outputs": [
+			{
+				"name": "country",
+				"type": "string"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "AttendeesAccts",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "countAttendees",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "description",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_address",
+				"type": "address"
+			}
+		],
+		"name": "getAttendee",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getAttendees",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getCourse",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "instructor",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "rating",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "title",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]); 
+ var course = courseContract.at('0x2af9de43ccc112f0c9a3ae7b5ff21d78dfaad478');
+ //console.log(course);
+
+ //update course information, only the contract owner can perform this 
+  $("#btnUpdateCourse").click(function() {
+    $("#loader").show();
+    $("#loadingview").show();
+    course.UpdateCourse($("#etitle").val(), $("#edescription").val(),$("#einstructor").val(),$("#erating").val(),
+    function(error, result){
+      if(error)
+      {
+        $("#loader").hide();
+        $("#loadingview").hide();
+        console.log(error);
+      }
+    });
+    });
+
+//listening the course update event
+  var eventCourse = course.CourseInfo({},'latest');
+  eventCourse.watch(function(error,result){
+    $("#loader").hide();
+    $("#loadingview").hide();
+    if (!error)
+    {
+      $("#title").html(result.args.title);
+      $("#description").html(result.args.description);
+      $("#instructor").html(result.args.instructor);
+      $("#rating").html(result.args.rating + ' stars');
+    }
+    else
+    {
+        console.log(error);
+    }
+    });
+
+//rate the contract
+  $("#btnRate").click(function() {
+    $("#loader").show();
+    $("#loadingview").show();
+    course.RateCourse($("#erating").val(),
+    function(error, result){
+      if(error)
+      {
+        $("#loader").hide();
+        $("#loadingview").hide();
+        console.log(error);
+      }
+    });
+    });
+
+//listening the rate event
+  var eventRateCourse = course.CourseRated({},'latest');
+  eventRateCourse.watch(function(error,result){
+    $("#loader").hide();
+    $("#loadingview").hide();
+    if (!error)
+    {
+      $("#rating").html(result.args.rating + ' stars');
+    }
+    else
+    {
+        console.log(error);
+    }
+    });
+
+//regsiter a new attendee
+  $("#btnRegister").click(function() {
+      $("#loader").show();
+      $("#loadingview").show();
+      course.addAttendee(web3.eth.accounts[0],$("#ecountry").val(), $("#efullname").val(),
+      function(error, result){
+      if(error)
+      {
+        $("#loader").hide();
+        $("#loadingview").hide();
+        console.log(error);
+      }  
+      });
+      });
+
+  //listening a new registration event
+  var eventAttendee = course.AttendeeInfo({},'latest');
+  eventAttendee.watch(function(error,result){
+    $("#loader").hide();
+    $("#loadingview").hide();
+    if (!error)
+    {
+      var list = $("#attendees");
+      var html = result.args.name + ' - ' + result.args.country;
+      list.append("<li>" + html + "</li>");
+    }
+    else
+    {
+        console.log(error);
+    }
+    });
+
+//get course information from the contract
+  $("#btnCourseInfo").click(function() {
+      $("#loader").show();
+      $("#loadingview").show();
+      course.getCourse(function(error, result){
+        $("#loadingview").hide();
+        $("#loader").hide();
+        if(!error)
+        {        
+          $("#title").html(result[0] );
+          $("#description").html(result[1] );
+          $("#instructor").html(result[2] );
+          $("#rating").html(result[3] + ' stars' );
+        }
+        else
+        {
+          console.error(error);
+        }
+        });
+        });
+  
+//loading attendees from the contract
+  $("#btnLoadAttendees").click(function() {
+    $("#loader").show();
+    $("#loadingview").show();
+    course.getAttendees(function(error, result){
+      $("#loadingview").hide();
+      $("#loader").hide();
+      if(!error)
+      {        
+        var list = $("#attendees");
+        list.empty();
+        $.each(result, function (index, value) 
+        {
+          course.getAttendee(value,function(error,result)
+          {
+            if (!error)
+            {
+              var html = result[1] + ' - ' + result[0];
+              list.append("<li>" + html + "</li>");
+            }
+            else
+              console.log(error);
+          });
+        });
+      }
+      else
+      {
+        console.error(error);
+      }
+      });
+      });
+
+
+$(document).ready(function() 
+{    
+    $("#loadingview").hide();
+    $("#loader").hide();
+});
+
+ 
+</script>
+
+</body>
+</html>
